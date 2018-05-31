@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,102 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DigitalArtApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dnw-Jc-3bR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dnw-Jc-3bR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="9cB-bE-fiB"/>
+                            <constraint firstItem="Dnw-Jc-3bR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Me2-wq-XUL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <size key="freeformSize" width="375" height="1300"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.84107946026987"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nb3-xN-KxT">
+            <objects>
+                <viewController id="hIB-jw-vhI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pHg-pb-Szg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M7B-GL-acj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="M7B-GL-acj" firstAttribute="width" secondItem="pHg-pb-Szg" secondAttribute="width" id="htg-0t-r0u"/>
+                            <constraint firstItem="M7B-GL-acj" firstAttribute="height" secondItem="pHg-pb-Szg" secondAttribute="height" id="mmv-55-gSx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lxa-VZ-OBR"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22U-bn-pkK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="117"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nYi-tR-a9Q">
+            <objects>
+                <viewController id="ryP-0y-01G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E4o-VT-6IB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O5b-3e-B6y">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="O5b-3e-B6y" firstAttribute="width" secondItem="E4o-VT-6IB" secondAttribute="width" id="FRu-b7-cTM"/>
+                            <constraint firstItem="O5b-3e-B6y" firstAttribute="height" secondItem="E4o-VT-6IB" secondAttribute="height" id="qIU-Uq-0zM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MNY-Xx-mlN"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Evp-ey-m9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1430" y="112"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pwt-G6-0cM">
+            <objects>
+                <viewController id="p3V-u0-ELZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Idw-ed-8Q5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ojQ-0i-ANl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ojQ-0i-ANl" firstAttribute="height" secondItem="Idw-ed-8Q5" secondAttribute="height" id="arc-Wn-vQ0"/>
+                            <constraint firstItem="ojQ-0i-ANl" firstAttribute="width" secondItem="Idw-ed-8Q5" secondAttribute="width" id="cFz-vv-CxA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GmF-d4-2la"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yp-zz-ASd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076" y="110"/>
         </scene>
     </scenes>
 </document>
